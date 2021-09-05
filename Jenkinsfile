@@ -36,7 +36,7 @@ pipeline {
         stage('Deploy') {
           steps {
             input(message: 'Do you want to Deployment ?', id: 'OK')
-            echo 'Deploying the app in IIS server'
+            echo 'Deploying the app in IIS server flamur'
           }
         }
 
